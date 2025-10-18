@@ -1,7 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from app.schema import PredictRequest, PredictResponse
 from app.model import ModelWrapper
-import traceback
 import os
 
 MODEL_PATH = os.environ.get("MODEL_PATH")  # optional override
