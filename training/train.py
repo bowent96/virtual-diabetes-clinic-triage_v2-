@@ -8,12 +8,10 @@ Deterministic: seed set, pinned scikit-learn versions assumed.
 """
 
 import json
-import os
 from pathlib import Path
 import argparse
 import joblib
 import numpy as np
-import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
