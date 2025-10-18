@@ -1,9 +1,5 @@
 from fastapi.testclient import TestClient
-import os
-import joblib
 from app.main import app
-from pathlib import Path
-import json
 
 client = TestClient(app)
 
