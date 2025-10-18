@@ -18,7 +18,7 @@ jobs:
       - name: Install deps
         run: pip install -r requirements-pin.txt
       - name: Run linter
-        run: ruff .
+        run: ruff check .
       - name: Run tests
         run: pytest -q
 
