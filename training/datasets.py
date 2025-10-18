@@ -1,6 +1,4 @@
 from sklearn.datasets import load_diabetes
-import pandas as pd
-
 
 def load_diabetes_df():
     Xy = load_diabetes(as_frame=True)
