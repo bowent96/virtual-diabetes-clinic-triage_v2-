@@ -2,7 +2,6 @@ from pathlib import Path
 import joblib
 from typing import Dict
 import numpy as np
-from pydantic import BaseModel
 
 ARTIFACT = Path(__file__).resolve().parents[1] / "artifacts" / "model.joblib"
 VERSION_FILE = Path(__file__).resolve().parents[1] / "artifacts" / "model_version.txt"
